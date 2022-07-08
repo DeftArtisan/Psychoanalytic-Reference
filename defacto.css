@@ -1,0 +1,107 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.2s linear;
+}
+
+:root{
+    --black: black;
+    --white: white;    
+}
+
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+}
+
+.homesection{
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('dark/activs.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    text-align: center;
+}
+
+.homesection h1{
+    font-size: 6rem;
+    font-weight: 400;
+    margin-bottom: 3rem;
+    color: var(--white);
+}
+
+.button{
+    color:var(--white);
+    font-weight: 400;
+    font-size: 1.7rem;
+    border: 0.1rem solid var(--white);
+    border-radius: 10rem;
+    padding: 1.5rem 4rem;
+    margin-top: 3rem;
+}
+
+.button:hover{
+   background: var(--black);
+   color: var(--white);
+}
+
+.homsection p{
+    font-size: 1.7rem;
+    font-weight: 400;
+    margin-bottom: 4rem;
+    text-transform: none;
+    color:var(--black)
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 5rem 9%;
+    display: flex;
+    align-items: center;
+    z-index: 100;
+}
+
+.header .logo{
+    margin-right: auto;
+    font-size: 3rem;
+    color:var(--white);
+    font-weight: 700;
+}
+
+.header .logo span{
+    font-weight: normal;
+    font-size: 3rem;
+    font-style: italic;
+}
+
+
+.header .navbar a {
+    font-size: 1.7rem;
+    color: var(--white);
+    margin-left: 3rem;
+}
+
+.header .menu{
+    font-size: 2rem;
+    color: var(--white);
+    display: flex;
+}
+
