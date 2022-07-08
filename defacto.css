@@ -11,6 +11,12 @@
     transition: 0.2s linear;
 }
 
+.homesection p{
+    text-transform: lowercase;
+    color: antiquewhite;
+
+}
+
 :root{
     --black: black;
     --white: white;    
@@ -49,14 +55,14 @@ html{
     color:var(--white);
     font-weight: 400;
     font-size: 1.7rem;
-    border: 0.1rem solid var(--white);
+    border: 0.1rem solid white;
     border-radius: 10rem;
     padding: 1.5rem 4rem;
     margin-top: 3rem;
 }
 
 .button:hover{
-   background: var(--black);
+   background: blueviolet;
    color: var(--white);
 }
 
@@ -95,6 +101,7 @@ html{
 
 .header .navbar a {
     font-size: 1.7rem;
+    text-transform: capitalize;
     color: var(--white);
     margin-left: 3rem;
 }
