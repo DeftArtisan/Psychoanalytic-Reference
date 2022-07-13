@@ -22,6 +22,10 @@
     --white: white;    
 }
 
+section{
+    padding: 5rem 9%;
+    background-color: whitesmoke;
+}
 
 html{
     font-size: 62.5%;
@@ -32,7 +36,7 @@ html{
 
 .homesection{
     height: 100vh;
-    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('dark/activs.jpg') no-repeat;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("https://alpha.aeon.co/images/26bbf283-3293-483d-99fc-1c1b0369d073/header_essay-final-freud-aeon.jpg") no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -57,12 +61,12 @@ html{
     font-size: 1.7rem;
     border: 0.1rem solid white;
     border-radius: 10rem;
-    padding: 1.5rem 4rem;
+    padding: 1.5rem 2rem;
     margin-top: 3rem;
 }
 
 .button:hover{
-   background: blueviolet;
+   background:  black;
    color: var(--white);
 }
 
@@ -103,7 +107,7 @@ html{
     font-size: 1.7rem;
     text-transform: capitalize;
     color: var(--white);
-    margin-left: 3rem;
+    padding: 1.2rem;
 }
 
 .header .menu{
@@ -111,4 +115,97 @@ html{
     color: var(--white);
     display: flex;
 }
+
+.homesection .btn{
+   background-color: none;
+}
+
+.header.active{
+   background: white;
+   padding: 3rem 9%;
+   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+.header.active .logo, 
+.header.active .navbar a{
+    color: black;
+}
+
+.defences .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 2rem;
+}
+.defences .box-container .box p{
+    padding-top: 4rem;
+    font-size: 1.7rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+    color: black;
+    text-transform: none;
+}
+
+.defences  .box-container h1{
+    font-size: 4rem;
+}
+
+.defences .box-container .box h3{
+    font-style: italic;
+    text-decoration: underline;
+    padding-top: 5rem;
+    font-size: 2.4rem;
+    color: firebrick;
+}
+
+br{
+    background-color: black;
+}
+
+.defences .box-container .box .image{
+    height: 40%;
+}
+
+.defences .box-container .box .image img{
+    padding-top: 10rem;
+    padding-left: 15rem;
+    object-fit: cover;
+    height: 250%;
+    width: 100%;
+}
+
+
+.about{
+    font-weight: 500;
+    margin-bottom: 5rem;
+    text-align: center;
+}
+
+.about .box-container h1 {
+   font-size: 4rem;
+}
+
+.about .box-container .box .image{
+    height: 40%;
+}
+
+.about .box-container .box .image img{
+    object-fit: cover;
+    height: 50rem;
+}
+
+.about .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 10rem;
+}
+.about .box-container .box p{
+    padding-top: 4rem;
+    font-size: 1.7rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+    color: black;
+    text-transform: none;
+}
+
 
